@@ -32,6 +32,6 @@ module IkedaroofApp
     # Don't generate system test files.
     config.generators.system_tests = nil
     config.i18n.default_locale = :ja
-    config.time_zone = 'Asia/Tokyo'
+    config.time_zone = "Asia/Tokyo"
   end
 end
