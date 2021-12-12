@@ -16,6 +16,9 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "activeadmin"
 gem "devise"
 
+gem 'rails-i18n', '~> 6.0'
+gem 'devise-i18n'
+
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "pry-byebug"
