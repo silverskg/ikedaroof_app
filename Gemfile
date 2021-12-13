@@ -19,6 +19,8 @@ gem "devise"
 gem "devise-i18n"
 gem "rails-i18n", "~> 6.0"
 
+gem 'dotenv-rails'
+
 group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
   gem "pry-byebug"
